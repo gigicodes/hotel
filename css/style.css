@@ -12,6 +12,7 @@ body {
     font-family: Poppins;
     background-color: #f2f2f2;
     font-size: 16px;
+    margin: auto;
 }
 /* ----Dark-Green color---- */
 .primary {
@@ -67,20 +68,16 @@ hr {
     border: none;
     height: 45px;
 }
-.f-btn {
-    width: 8%;
-}
 /*----Embedded google map----*/
 #map {
     width: 100%;
-    margin: 50px 0;
+    margin: 30px 0;
     border: 1px solid #d9d9d9;
     border-radius: 5px;
     box-shadow: 5px 5px 3px grey;
-    float: center;
 }
 .map-container {
-    margin: 0 140px 0 70px;
+    margin: 0 70px 0 70px;
 }
 /*----This is the container of the address, contact & details ,email and message textarea----*/
 #details {
@@ -100,7 +97,6 @@ table {
     width: 100%;
     table-layout: fixed;
     margin: 10px 0;
-    text-align: start;
 }
 /*----I had to make the length of the text in the table column shorter----*/
 .address {
@@ -121,7 +117,7 @@ table {
     outline: none;
 }
 /*----And finally the button to send a message----*/
-.button3 {
+.button2 {
     background-color: #035951;
     color: #f2f2f2;
     font-size: 14px;
@@ -135,17 +131,17 @@ table {
     border-radius: 5px;
     outline: none;
 }
-.button3:hover {
+.button2:hover {
     background-color: #0d9285;
     border: 2px solid #0d9285;
 }
 
-.button3:focus {
+.button2:focus {
     background-color: #035651;
     border: 2px #035651;
 }
 
-.button3:disabled {
+.button2:disabled {
     background-color: #9feee9;
     border: 2px  #9feee9;
 }
@@ -176,14 +172,11 @@ table {
         width: 100%;
         margin: 15px 0 0 0;
     }
-    .f-btn {
-        width: 25%;
-        padding: 6px;
-    }
-    .button3{
+    .button2{
         padding: 10px;
         font-size: 12px;
         width: 100%;
+        margin: 0;
     }
     .button1 {
         padding: 10px;
@@ -196,7 +189,7 @@ table {
         width: 100%;
     }
     #details {
-        margin: 0 60px 0 40px;
+        margin: 0 40px 0 20px;
     }
 }
 /*----Media Queries for Tablets and Ipads----*/
