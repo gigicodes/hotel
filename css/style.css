@@ -22,9 +22,10 @@ body {
 }
 /*----Main-Header----*/
 .header {
-    font-size: 20pt;
-    font-family: Poppins;
+    font-size: 20px;
+    font-family: Poppins , sans-serif;
     text-transform: uppercase;
+    color: #8c8c8c;
 }
 /*----The little line below the header----*/
 hr {
@@ -35,7 +36,7 @@ hr {
 }
 /*----The other little headers----*/
 .small-header {
-    font-family: CrimsonText-bold;
+    font-family: CrimsonText-bold, serif;
     font-size: 20px;
 }
 /*----For email  and location input boxes----*/
@@ -102,7 +103,7 @@ table {
 /*----And finally the button to send a message----*/
 .button {
     background-color: #035951;
-    color: #ffffff;
+    color: #f2f2f2;
     font-size: 14px;
     font-weight: bold;
     width: 40%;
@@ -114,17 +115,53 @@ table {
     border-radius: 5px;
     outline: none;
 }
+.button:hover {
+    background-color: #0d9285;
+    border: 2px solid #0d9285;
+}
+
+.button:focus {
+    background-color: #035651;
+    border: 2px #035651;
+}
+
+.button:disabled {
+    background-color: #9feee9;
+    border: 2px  #9feee9;
+}
+/*---Media Queries for Smaller Screens----*/
 @media  only screen and (max-width:700px) {
+    body {
+        font-size: 13px;
+    }
+    .header {
+        font-size: 16px;
+    }
+    hr {
+        width: 50px;
+    }
+    .container {
+       float: left;
+       padding: 0;
+    }
     td, tr {
+        display: block;
         width: 100%;
     }
     .map-container {
         margin: 0 30px 0 30px;
     }
-    .input {
+    .spaced {
         display: block;
         width: 100%;
-        float: left;
-        margin-left: 30px;
+        margin: 15px 0 0 -20px;
+    }
+    .button {
+        padding: 10px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .input {
+        width: 100%;
     }
 }
