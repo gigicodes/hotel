@@ -196,7 +196,7 @@ table {
         width: 100%;
     }
     #details {
-        margin: 0 40px;
+        margin: 0 60px 0 40px;
     }
 }
 /*----Media Queries for Tablets and Ipads----*/
