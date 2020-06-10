@@ -176,7 +176,6 @@ table {
         padding: 10px;
         font-size: 12px;
         width: 100%;
-        margin: 0;
     }
     .button1 {
         padding: 10px;
@@ -189,7 +188,7 @@ table {
         width: 100%;
     }
     #details {
-        margin: 0 40px 0 20px;
+        margin: 0 43px 0 20px;
     }
 }
 /*----Media Queries for Tablets and Ipads----*/
